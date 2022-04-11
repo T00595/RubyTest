@@ -1,0 +1,5 @@
+---
+default: -p bdd -p html -p json_report
+bdd: --format pretty # Mostrar a descrição da funcionalidede no terminal
+html: --format html --out=log/report.html
+json_report: --format pretty --format json --out=log/features_report.json
