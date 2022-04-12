@@ -1,6 +1,6 @@
 source "https://rubygems.org" do
   gem "capybara"
-  gem "cucumber"
+  gem 'cucumber', '~> 5.2'
   gem "rspec"
   gem "site_prism"
   gem "selenium-webdriver"
